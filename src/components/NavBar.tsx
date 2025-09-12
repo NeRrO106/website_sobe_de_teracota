@@ -14,13 +14,13 @@ function Navbar() {
         </div>
 
         <div className="hidden lg:flex lg:gap-x-12">
-          <Link to="#produse" className="text-sm font-semibold text-white">
+          <Link to="/products" className="text-md font-semibold text-white">
             Produse
           </Link>
-          <Link to="#despre" className="text-sm font-semibold text-white">
+          <Link to="#despre" className="text-md font-semibold text-white">
             Despre noi
           </Link>
-          <Link to="#contact" className="text-sm font-semibold text-white">
+          <Link to="#contact" className="text-md font-semibold text-white">
             Contact
           </Link>
         </div>

@@ -77,7 +77,7 @@ function Products() {
               </div>
               <div className="p-6 pt-0">
                 <a
-                  href="#contact"
+                  href="/contact"
                   className="inline-block w-full text-center px-4 py-2 bg-amber-500 text-white font-semibold rounded-md hover:bg-amber-600 transition-colors"
                 >
                   Solicită ofertă

@@ -17,10 +17,10 @@ function Navbar() {
           <Link to="/products" className="text-md font-semibold text-white">
             Produse
           </Link>
-          <Link to="#despre" className="text-md font-semibold text-white">
+          <Link to="/about" className="text-md font-semibold text-white">
             Despre noi
           </Link>
-          <Link to="#contact" className="text-md font-semibold text-white">
+          <Link to="/contact" className="text-md font-semibold text-white">
             Contact
           </Link>
         </div>

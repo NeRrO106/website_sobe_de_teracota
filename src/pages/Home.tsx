@@ -11,12 +11,15 @@ function Home() {
         </p>
         <div className="mt-10 flex gap-x-6">
           <a
-            href="#produse"
+            href="/products"
             className="px-4 py-2 bg-amber-500 text-white rounded-md font-semibold hover:bg-amber-600"
           >
             Vezi produsele
           </a>
-          <a href="#contact" className="text-white font-semibold">
+          <a
+            href="/contact"
+            className="px-4 py-2 bg-amber-500 text-white rounded-md font-semibold hover:bg-amber-600"
+          >
             Contactează-ne →
           </a>
         </div>

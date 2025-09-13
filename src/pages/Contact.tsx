@@ -4,7 +4,7 @@ function Contact() {
       <h1 className="text-5xl sm:text-6xl font-bold text-white mb-6">
         Contactează-ne
       </h1>
-      <p className="text-lg sm:text-xl text-gray-200 mb-12 max-w-2xl">
+      <p className="text-lg sm:text-xl text-stone-900 mb-12 max-w-2xl">
         Pentru informații sau oferte personalizate, completează formularul sau
         folosește datele noastre de contact.
       </p>
@@ -13,7 +13,7 @@ function Contact() {
         <form className="space-y-6 ">
           <div>
             <label
-              className="block text-white font-semibold mb-2"
+              className="block text-stone-700 font-semibold mb-2"
               htmlFor="nume"
             >
               Nume
@@ -27,7 +27,7 @@ function Contact() {
           </div>
           <div>
             <label
-              className="block text-white font-semibold mb-2"
+              className="block text-stone-700 font-semibold mb-2"
               htmlFor="email"
             >
               Email
@@ -41,7 +41,7 @@ function Contact() {
           </div>
           <div>
             <label
-              className="block text-white font-semibold mb-2"
+              className="block text-stone-700 font-semibold mb-2"
               htmlFor="mesaj"
             >
               Mesaj
@@ -55,14 +55,12 @@ function Contact() {
           </div>
           <button
             type="submit"
-            className="w-full bg-amber-500 text-white font-semibold py-2 rounded-md hover:bg-amber-600 transition-colors"
+            className="w-full bg-amber-500 text-stone-900 font-semibold py-2 rounded-md hover:bg-amber-600 transition-colors hover:text-white"
           >
             Trimite mesaj
           </button>
         </form>
-
-        {/* Info contact */}
-        <div className="mt-8 text-gray-700">
+        <div className="mt-8 text-stone-700">
           <p>
             <strong>Telefon:</strong> 0722 123 456
           </p>

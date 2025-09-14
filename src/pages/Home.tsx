@@ -21,7 +21,7 @@ function Home() {
             </a>
             <a
               href="/contact"
-              className="px-5 py-3 bg-stone-100 text-stone-800 rounded-md font-semibold hover:bg-stone-200 hover:scale-105 transition-transform"
+              className="px-5 py-3 bg-amber-500 text-stone-800 rounded-md font-semibold hover:bg-amber-600 hover:scale-105 transition-transform hover:text-white"
             >
               Contactează-ne →
             </a>
@@ -31,7 +31,7 @@ function Home() {
           <img
             src={soba}
             alt="Sobă teracotă"
-            className="w-full max-w-md rounded-2xl shadow-lg"
+            className="w-full max-w-md rounded-2xl shadow-lg transform hover:scale-105 transition-transform"
           />
         </div>
       </div>

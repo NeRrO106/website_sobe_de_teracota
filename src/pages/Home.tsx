@@ -31,7 +31,7 @@ function Home() {
           <img
             src={soba}
             alt="Sobă teracotă"
-            className="w-full max-w-md rounded-2xl shadow-lg transform hover:scale-105 transition-transform"
+            className="w-105 h-120 rounded-2xl shadow-lg transform hover:scale-105 transition-transform"
           />
         </div>
       </div>

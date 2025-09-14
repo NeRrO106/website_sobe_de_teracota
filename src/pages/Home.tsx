@@ -1,27 +1,38 @@
+import soba from "../assets/soba_moderna.png";
+
 function Home() {
   return (
-    <div className="bg-amber-700 min-h-screen relative overflow-hidden">
-      <div className="relative z-10 flex flex-col items-center justify-center text-center h-screen px-6">
-        <h1 className="text-5xl sm:text-7xl font-bold text-white">
-          Căldura tradiției în casa ta
-        </h1>
-        <p className="mt-6 text-lg sm:text-xl text-stone-700 max-w-xl">
-          Sobe de teracotă realizate manual, cu atenție la detalii și materiale
-          de calitate.
-        </p>
-        <div className="mt-10 flex gap-x-6">
-          <a
-            href="/products"
-            className="px-4 py-2 bg-amber-500 text-stone-700 rounded-md font-semibold hover:bg-amber-600 hover:scale-105 transition-transform hover:text-white"
-          >
-            Vezi produsele
-          </a>
-          <a
-            href="/contact"
-            className="px-4 py-2 bg-amber-500 text-stone-700 rounded-md font-semibold hover:bg-amber-600 hover:scale-105 transition-transform hover:text-white"
-          >
-            Contactează-ne →
-          </a>
+    <div className="bg-amber-700 min-h-screen flex items-center">
+      <div className="max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div className="text-center md:text-left">
+          <h1 className="text-5xl sm:text-6xl font-bold text-white leading-tight">
+            Căldura tradiției <br /> în casa ta
+          </h1>
+          <p className="mt-6 text-lg sm:text-xl text-stone-200 max-w-md mx-auto md:mx-0">
+            Sobe de teracotă realizate manual, cu atenție la detalii și
+            materiale de calitate.
+          </p>
+          <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+            <a
+              href="/products"
+              className="px-5 py-3 bg-amber-500 text-stone-800 rounded-md font-semibold hover:bg-amber-600 hover:scale-105 transition-transform hover:text-white"
+            >
+              Vezi produsele
+            </a>
+            <a
+              href="/contact"
+              className="px-5 py-3 bg-stone-100 text-stone-800 rounded-md font-semibold hover:bg-stone-200 hover:scale-105 transition-transform"
+            >
+              Contactează-ne →
+            </a>
+          </div>
+        </div>
+        <div className="flex justify-center md:justify-end mt-6">
+          <img
+            src={soba}
+            alt="Sobă teracotă"
+            className="w-full max-w-md rounded-2xl shadow-lg"
+          />
         </div>
       </div>
     </div>
